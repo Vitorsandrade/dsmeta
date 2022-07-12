@@ -1,68 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
-* {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body,
-html {
-    background-color: #181818;
-    color: #fff;
-}
-
-a,
-a:hover,
-a:visited {
-    color: unset;
-    text-decoration: none;
-}
-
-header {
-    height: 220px;
-    background: linear-gradient(180deg, #102347 0%, #181818 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dsmeta-logo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.dsmeta-logo-container img {
-    width: 235px;
-}
-
-.dsmeta-logo-container h1 {
-    margin-top: 15px;
-    font-size: 24px;
-}
-
-.dsmeta-logo-container p {
-    font-weight: 300;
-    font-size: 14px;
-}
-
-.dsmeta-container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-
-}
-
 .dsmeta-card {
     background: #283142;
     border-radius: 10px;
     padding: 30px 10px;
-}
-
-#sales {
-    padding: 40px 10px;
 }
 
 .dsmeta-sales-title {
@@ -120,21 +59,6 @@ header {
     background-color: #242C3B;
 }
 
-.dsmeta-red-btn {
-    width: 45px;
-    height: 45px;
-    background: rgba(255, 107, 114, 0.1);
-    border: 1px solid #FF6B72;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.dsmeta-red-btn img{
-    width: 19px;
-}
 
 .dsmeta-red-btn-container {
     display: flex;
@@ -149,7 +73,7 @@ header {
     display: none;
 }
 
-@media (min-width: 576px){
+@media (min-width: 576px) {
     .show576 {
         display: table-cell;
     }
@@ -160,7 +84,7 @@ header {
 
     .dsmeta-sales-table tbody tr {
         height: 55px;
-    
+
     }
 
     .dsmeta-sales-table tbody {
@@ -169,19 +93,8 @@ header {
 }
 
 @media (min-width: 992px) {
-    
+
     .show992 {
         display: table-cell;
     }
-}
-.dsmeta-container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-
-}
-
-
-#sales {
-    padding: 40px 10px;
 }
